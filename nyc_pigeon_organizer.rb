@@ -12,8 +12,8 @@ def nyc_pigeon_organizer(data)
         end
 
         new_data[name][key]<<inner_key
-        binding.pry
       }
+      binding.pry
 
     }
     new_data
