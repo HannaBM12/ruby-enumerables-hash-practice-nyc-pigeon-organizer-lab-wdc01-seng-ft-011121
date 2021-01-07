@@ -9,8 +9,7 @@ def nyc_pigeon_organizer(data)
         end
         if not new_data[name]
           new_data[name]= key
-
-          binding.pry
+        binding.pry
         end
         new_data[name][key]=inner_key
       }
