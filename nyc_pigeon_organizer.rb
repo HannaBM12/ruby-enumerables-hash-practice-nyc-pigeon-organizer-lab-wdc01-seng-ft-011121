@@ -7,13 +7,13 @@ def nyc_pigeon_organizer(data)
         unless new_data[name]
           new_data[name] = {}
         end
-        if not new_data[name]
-          new_data[name]= key
+        if not new_data[name][key]
+          new_data[name][key] = []
         binding.pry
         end
         new_data[name][key]=inner_key
       }
-  
+
     }
     new_data
   }
