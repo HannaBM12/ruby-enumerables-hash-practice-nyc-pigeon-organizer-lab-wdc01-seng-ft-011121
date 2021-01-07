@@ -16,8 +16,8 @@ def nyc_pigeon_organizer(data)
       new_data
       binding.pry
     }
-
-    binding.pry
+    new_data
   }
+  binding.pry
 
 end
