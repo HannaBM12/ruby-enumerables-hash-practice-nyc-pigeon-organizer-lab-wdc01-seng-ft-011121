@@ -6,9 +6,9 @@ def nyc_pigeon_organizer(data)
       inner_value.map{|name|
         unless new_data[name]
           new_data[name] = {}
-          binding.pry
         end
         new_data[name] = key,
+        binding.pry
         new_data[name][key]=inner_key
       }
       binding.pry
