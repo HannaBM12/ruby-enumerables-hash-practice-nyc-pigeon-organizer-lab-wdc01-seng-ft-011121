@@ -8,6 +8,8 @@ def nyc_pigeon_organizer(data)
           new_data[name] = {}
           binding.pry
         end
+        new_data[name] = key,
+        new_data[name][key]=inner_key
       }
       binding.pry
     }
